@@ -1,0 +1,46 @@
+.navbar{
+    background-color: var(--primary);
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding: 0.4rem 6rem;
+}
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap:1rem;
+    font-weight: 600;
+}
+
+.navbar a{
+    color:inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+
+.navbar_logo img{
+    width: 8rem;
+    height: auto;
+}
+
+.navbar li{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li:hover{
+    color: var(--secondary);
+}
+
+.navbar .navbar_item{
+    padding: 0 0.5rem;
+}
